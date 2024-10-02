@@ -1,0 +1,217 @@
+[versions]
+activityComposeVersion = "1.8.1"
+agp = "8.5.1"
+algoliasearchAndroid = "3.27.0"
+algoliasearchClientKotlin = "3.2.2"
+algoliasearchClientKotlinVersion = "2.0.0"
+androidMapsUtils = "3.8.2"
+androidMapsUtilsVersion = "2.2.0"
+androidxComposeBom = "2023.10.01"
+androidxJunit = "1.1.5"
+androidxLifecycleRuntimeKtx = "2.6.2"
+androidxMaterial3 = "1.1.2"
+appcompatVersion = "1.6.1"
+coilCompose = "2.7.0"
+composeBomVersion = "2024.08.00"
+coreKtxVersion = "1.12.0"
+datastorePreferences = "1.1.1"
+espressoCoreVersion = "3.5.1"
+firebaseAuthVersion = "21.0.1"
+firebaseBom = "33.2.0"
+firebaseBomVersion = "33.1.2"
+firebaseFirestore = "25.1.0"
+firebaseFirestoreKtx = "25.1.0"
+firebaseFirestoreKtxVersion = "24.0.0"
+foundationLayout = "1.6.8"
+googleAndroidMapsUtils = "2.3.0"
+googleAndroidMapsUtilsVersion = "2.2.3"
+googleFirebaseBom = "32.7.0"
+googleMapsCompose = "2.11.4"
+googleMapsComposeVersion = "5.0.3"
+googlePlaces = "2.6.0"
+googlePlayServicesMaps = "18.1.0"
+googleServices = "4.4.2"
+googleServicesVersion = "4.4.0"
+instantsearchAndroid = "3.3.1"
+instantsearchAndroidPaging3 = "3.3.1"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotlinxCoroutinesAndroid = "1.8.1"
+kotlinxSerializationJson = "1.7.1"
+kotlinxSerializationJsonVersion = "1.3.0"
+ktorClientAndroid = "2.3.7"
+ktorClientAndroidVersion = "2.0.1"
+lifecycleLivedataKtxVersion = "2.8.5"
+lifecycleRuntimeKtx = "2.8.4"
+activityCompose = "1.9.1"
+composeBom = "2024.04.01"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.0.0"
+appcompat = "1.7.0"
+lifecycleViewmodelCompose = "2.6.1"
+lifecycleViewmodelComposeVersion = "2.8.4"
+lifecycleViewmodelKtxVersion = "2.8.5"
+mapsCompose = "6.1.1"
+mapsComposeUtils = "2.11.4"
+mapsComposeVersion = "2.0.0"
+mapsComposeWidgets = "6.1.1"
+mapsComposeWidgetsVersion = "2.11.4"
+mapsKtx = "5.1.1"
+mapsUtilsKtx = "5.1.1"
+material = "1.12.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+firebaseAuthInterop = "20.0.0"
+firebaseCrashlytics = "19.0.3"
+googleFirebaseCrashlytics = "3.0.2"
+firebaseDatabase = "21.0.0"
+material3 = "1.0.1"
+material3Version = "1.2.1"
+materialIconsExtended = "1.6.8"
+navigationCompose = "2.7.7"
+places = "3.5.0"
+material3Android = "1.2.1"
+annotation = "1.8.2"
+lifecycleLivedataKtx = "2.8.4"
+lifecycleViewmodelKtx = "2.8.4"
+firebaseStorage = "21.0.0"
+firebaseMessagingKtx = "24.0.1"
+placesVersion = "2.4.0"
+playServicesLocation = "21.3.0"
+playServicesMaps = "19.0.0"
+playServicesMapsVersion = "17.0.1"
+runtimeLivedata = "1.6.8"
+roomKtx = "2.6.1"
+firebaseMessaging = "24.0.1"
+ui = "1.6.8"
+uiTooling = "1.6.8"
+playServicesAppindex = "16.2.0"
+playServicesAppsearch = "16.0.0"
+playServicesSafetynet = "18.1.0"
+
+[libraries]
+algoliasearch-android = { module = "com.algolia:algoliasearch-android", version.ref = "algoliasearchAndroid" }
+algoliasearch-client-kotlin = { module = "com.algolia:algoliasearch-client-kotlin", version.ref = "algoliasearchClientKotlin" }
+algoliasearch-client-kotlin-v200 = { module = "com.algolia:algoliasearch-client-kotlin", version.ref = "algoliasearchClientKotlinVersion" }
+android-maps-utils = { module = "com.google.maps.android:android-maps-utils", version.ref = "androidMapsUtils" }
+android-maps-utils-v220 = { module = "com.google.maps.android:android-maps-utils", version.ref = "androidMapsUtilsVersion" }
+android-maps-utils-v223 = { module = "com.google.maps.android:android-maps-utils", version.ref = "googleAndroidMapsUtilsVersion" }
+android-maps-utils-v230 = { module = "com.google.maps.android:android-maps-utils", version.ref = "googleAndroidMapsUtils" }
+androidx-activity-compose-v181 = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
+androidx-appcompat-v161 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+androidx-compose-bom-v20240800 = { module = "androidx.compose:compose-bom", version.ref = "composeBomVersion" }
+androidx-compose-material3-material3 = { module = "androidx.compose.material3:material3", version.ref = "material3Version" }
+androidx-compose-ui-ui = { module = "androidx.compose.ui:ui", version.ref = "ui" }
+androidx-compose-ui-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "uiTooling" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-ktx-v1120 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+androidx-espresso-core-v351 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+androidx-foundation-layout = { module = "androidx.compose.foundation:foundation-layout", version.ref = "foundationLayout" }
+androidx-junit-v115 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+androidx-lifecycle-livedata-ktx-v285 = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtxVersion" }
+androidx-lifecycle-viewmodel-compose-v261 = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
+androidx-lifecycle-viewmodel-ktx-v285 = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtxVersion" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
+androidx-material3-v101 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+androidx-material3-v112 = { module = "androidx.compose.material3:material3", version.ref = "androidxMaterial3" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+androidx-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "runtimeLivedata" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+com-google-firebase-firebase-firestore-ktx = { module = "com.google.firebase:firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
+compose-bom-v20231001 = { module = "androidx.compose:compose-bom", version.ref = "androidxComposeBom" }
+firebase-analytics-ktx = { module = "com.google.firebase:firebase-analytics-ktx" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-auth-v2101 = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuthVersion" }
+firebase-bom-v3320 = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-crashlytics-ktx = { module = "com.google.firebase:firebase-crashlytics-ktx" }
+firebase-database-ktx = { module = "com.google.firebase:firebase-database-ktx" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebaseFirestore" }
+firebase-firestore-ktx = { module = "com.google.firebase:firebase-firestore-ktx" }
+firebase-firestore-ktx-v2400 = { module = "com.google.firebase:firebase-firestore-ktx", version.ref = "firebaseFirestoreKtxVersion" }
+firebase-storage-ktx = { module = "com.google.firebase:firebase-storage-ktx" }
+google-firebase-analytics-ktx = { module = "com.google.firebase:firebase-analytics-ktx" }
+google-firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+google-firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
+google-firebase-bom-v3270 = { module = "com.google.firebase:firebase-bom", version.ref = "googleFirebaseBom" }
+google-firebase-crashlytics-ktx = { module = "com.google.firebase:firebase-crashlytics-ktx" }
+google-firebase-database-ktx = { module = "com.google.firebase:firebase-database-ktx" }
+google-firebase-firestore-ktx = { module = "com.google.firebase:firebase-firestore-ktx" }
+google-firebase-messaging-ktx = { module = "com.google.firebase:firebase-messaging-ktx" }
+google-firebase-storage-ktx = { module = "com.google.firebase:firebase-storage-ktx" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+google-services-v440 = { module = "com.google.gms:google-services", version.ref = "googleServicesVersion" }
+instantsearch-android = { module = "com.algolia:instantsearch-android", version.ref = "instantsearchAndroid" }
+instantsearch-android-paging3 = { module = "com.algolia:instantsearch-android-paging3", version.ref = "instantsearchAndroidPaging3" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+kotlinx-serialization-json-v130 = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJsonVersion" }
+ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktorClientAndroid" }
+ktor-client-android-v201 = { module = "io.ktor:ktor-client-android", version.ref = "ktorClientAndroidVersion" }
+lifecycle-runtime-ktx-v262 = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidxLifecycleRuntimeKtx" }
+lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelComposeVersion" }
+maps-compose = { module = "com.google.maps.android:maps-compose", version.ref = "mapsCompose" }
+maps-compose-utils = { module = "com.google.maps.android:maps-compose-utils", version.ref = "mapsComposeUtils" }
+maps-compose-v200 = { module = "com.google.maps.android:maps-compose", version.ref = "mapsComposeVersion" }
+maps-compose-v2114 = { module = "com.google.maps.android:maps-compose", version.ref = "googleMapsCompose" }
+maps-compose-v503 = { module = "com.google.maps.android:maps-compose", version.ref = "googleMapsComposeVersion" }
+maps-compose-widgets = { module = "com.google.maps.android:maps-compose-widgets", version.ref = "mapsComposeWidgets" }
+maps-compose-widgets-v2114 = { module = "com.google.maps.android:maps-compose-widgets", version.ref = "mapsComposeWidgetsVersion" }
+maps-ktx = { module = "com.google.maps.android:maps-ktx", version.ref = "mapsKtx" }
+maps-utils-ktx = { module = "com.google.maps.android:maps-utils-ktx", version.ref = "mapsUtilsKtx" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-auth-interop = { group = "com.google.firebase", name = "firebase-auth-interop", version.ref = "firebaseAuthInterop" }
+firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics", version.ref = "firebaseCrashlytics" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+material3 = { module = "androidx.compose.material3:material3" }
+places = { group = "com.google.android.libraries.places", name = "places", version.ref = "places" }
+androidx-material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3Android" }
+androidx-annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+firebase-messaging-ktx = { group = "com.google.firebase", name = "firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
+places-v240 = { module = "com.google.android.libraries.places:places", version.ref = "placesVersion" }
+places-v260 = { module = "com.google.android.libraries.places:places", version.ref = "googlePlaces" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMaps" }
+play-services-maps-v1701 = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMapsVersion" }
+play-services-maps-v1810 = { module = "com.google.android.gms:play-services-maps", version.ref = "googlePlayServicesMaps" }
+ui = { module = "androidx.compose.ui:ui" }
+ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebaseMessaging" }
+play-services-appindex = { group = "com.google.android.gms", name = "play-services-appindex", version.ref = "playServicesAppindex" }
+play-services-appsearch = { group = "com.google.android.gms", name = "play-services-appsearch", version.ref = "playServicesAppsearch" }
+play-services-safetynet = { group = "com.google.android.gms", name = "play-services-safetynet", version.ref = "playServicesSafetynet" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+google-firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "googleFirebaseCrashlytics" }
+
