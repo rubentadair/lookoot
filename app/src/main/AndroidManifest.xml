@@ -31,8 +31,8 @@
             android:resource="@color/notification_color" />
 
         <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDFZCCoFIICQkRY6lZYMSOx2QFQEvgHx5s"/>
+            android:name="API"
+            android:value="API"/>
 
         <activity
             android:name=".MainActivity"
