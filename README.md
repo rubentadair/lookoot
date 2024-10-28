@@ -1,7 +1,4 @@
-![image](https://github.com/user-attachments/assets/79795b6d-8e17-4dbf-960b-9de0f02f22a4)
-![image](https://github.com/user-attachments/assets/0da6933b-daa7-4ae4-a7ce-34e0b5e6991e)
-![image](https://github.com/user-attachments/assets/50db9fc2-df88-471f-8893-edb0287cfb7f)
-![image](https://github.com/user-attachments/assets/68d9c764-2070-4dc2-8590-da73ccb5e382)
+
 
 
 # Lookoot: Empowering Local Business Discovery
@@ -87,7 +84,14 @@ com.example.lookoot/
 │   ├── screens/       # Application screens
 │   └── theme/         # UI theme and styling
 └── utils/             # Utility classes and extensions
-Copy
+
+
+![image](https://github.com/user-attachments/assets/79795b6d-8e17-4dbf-960b-9de0f02f22a4)
+![image](https://github.com/user-attachments/assets/0da6933b-daa7-4ae4-a7ce-34e0b5e6991e)
+![image](https://github.com/user-attachments/assets/50db9fc2-df88-471f-8893-edb0287cfb7f)
+![image](https://github.com/user-attachments/assets/68d9c764-2070-4dc2-8590-da73ccb5e382)
+
+
 ## Getting Started
 
 ### Prerequisites
